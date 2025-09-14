@@ -20,5 +20,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Teb  
-      run: mvn clean tewt -Dsuite=suite -X
+      run: mvn clean test -Dsuite=suite -X
   
